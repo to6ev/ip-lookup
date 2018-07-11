@@ -2,14 +2,12 @@
 <html lang="en">
 <head>
 <title>IP Address Lookup</title>
-<LINK REL="SHORTCUT ICON" href="avatar brigante.jpg">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="IP Lookup">
 <meta name="keywords" content="ip lookup, what is my ip, my ip address, my ip, ip address lookup, ip geolocation, latitude longitude finder, ip lookup php script, моето айпи, моят айпи адрес, моето ip, покажи айпи"/>
 <meta name="author" content="ETI's Free Stuff - www.eti.pw">
 <meta name="robots" content="all"/>
-<link type="text/css" rel="stylesheet" href="css/main.css" />
 </head>
 <body>
 
@@ -53,7 +51,7 @@ echo "<br><b>Calling code: </b>" .$location->calling_code;
 echo "<br><b>Latitude: </b>" .$location->latitude;
 echo "<br><b>Longitude: </b>" .$location->longitude;
 
-// no more of these 2 :(
+// no more free of these 2 ... the extensions are paid
 // echo "<br><b>Time zone: </b>" .$location->time_zone;
 // echo "<br><b>Metro code: </b>" .$location->metro_code;
 
@@ -92,7 +90,6 @@ Enter a latitude/longitude:
 HTML;
 }
 
-
 else {
 
 print ('<form method="get" action="">
@@ -101,16 +98,18 @@ print ('<form method="get" action="">
 </form>');
 echo "<br>Here's what you will find out:<br><br>
 <li>Your IP (but you can check other IP)</li>
-<li>Country name</li>
+<li>IP type</li>
+<li>Continent code</li> 
+<li>Continent name</li> 
 <li>Country code</li>
+<li>Country name</li>
 <li>City</li>
 <li>State/Region</li>
 <li>Region code</li>
 <li>Zip code</li>
-<li>Time zone</li>
+<li>Calling code</li>
 <li>Latitude</li>
 <li>Longitude</li>
-<li>Metro code</li>
 <li>Organization</li>
 <li>Hostname</li>
 <li>Your Browser User-Agent</li>
@@ -182,8 +181,6 @@ function geocode($address){
 	}
 }
 ?>
-
-
 
 <?php
 if($_POST){
