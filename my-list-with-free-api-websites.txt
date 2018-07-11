@@ -1,0 +1,12 @@
+Short List with websites who give us free APIs about IP-lookup
+
+https://ipinfo.io -no signup is required actually :)
+https://ipapi.co - no signup
+http://geoiplookup.net - simple, but nice :) with xml and no need signup for key
+https://extreme-ip-lookup.com - no signup
+http://ip-api.com - no signup
+
+https://ipfind.co - required signup for access_key/api_key
+https://ipgeolocation.io - required signup
+https://www.ip2location.com - well,  suckz :) i don't like it, but try...
+https://ipdata.co - required free signup
