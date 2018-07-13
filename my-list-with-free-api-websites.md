@@ -21,7 +21,6 @@ www.ipfind.co - required signup for access_key/api_key
 www.ipgeolocation.io - required signup
 
 
-www.ip2location.com - well,  suckz :) i don't like it, but try...
-
-
 www.ipdata.co - required free signup
+
+www.ip2location.com
