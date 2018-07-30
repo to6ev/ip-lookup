@@ -119,7 +119,6 @@ echo "<br>Here's what you will find out:<br><br>
 
 }
 ?>
-</center> 
 	
 	<style>
 	#gmap_canvas{
@@ -132,7 +131,6 @@ echo "<br>Here's what you will find out:<br><br>
 		margin:1em 0;
 	}
 	</style>
-
 
 <?php
 function geocode($address){
