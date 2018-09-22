@@ -138,8 +138,11 @@ function geocode($address){
 	// url encode the address
 	$address = urlencode($address);
 	
-	// google map geocode api url
-	$url = "http://maps.google.com/maps/api/geocode/json?address={$address}";
+	// google map geocode free api url ... keyless old api
+	// $url = "http://maps.google.com/maps/api/geocode/json?address={$address}"; // no need &key parameter :)
+
+// Keyless access to Google Maps Platform is deprecated since June 11th,2018 ... Get KEY: cloud.google.com/maps-platform/maps
+$url = "http://maps.google.com/maps/api/geocode/json?address={$address}&key=YOUR_API_KEY"; //key parameter contains your application's API key
 
 	// get the json response
 	$resp_json = file_get_contents($url);
