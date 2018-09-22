@@ -57,7 +57,7 @@ echo "<br><b>Longitude: </b>" .$location->longitude;
 
 echo "<br><b>Organization: </b>" .$details->org;
 echo "<br><b>Host: </b>" .$hostname;
-echo "<br><b>Your Browser User-Agent String: </b>" .$_SERVER['HTTP_USER_AGENT']; //or remove this:)
+echo "<br><b>Your Browser User-Agent String: </b>" .$_SERVER['HTTP_USER_AGENT']; // remove this line if no need to show user-agent :)
 //echo  $_SERVER['HTTP_USER_AGENT'];
 
 echo "<br><br>Short View:<br>";
@@ -142,7 +142,7 @@ function geocode($address){
 	// $url = "http://maps.google.com/maps/api/geocode/json?address={$address}"; // no need &key parameter :)
 
 // Keyless access to Google Maps Platform is deprecated since June 11th,2018 ... Get KEY: cloud.google.com/maps-platform/maps
-$url = "http://maps.google.com/maps/api/geocode/json?address={$address}&key=YOUR_API_KEY"; //key parameter contains your application's API key
+$url = "http://maps.google.com/maps/api/geocode/json?address={$address}&key=YOUR_API_KEY"; // key parameter contains your application's API key
 
 	// get the json response
 	$resp_json = file_get_contents($url);
