@@ -2,9 +2,9 @@
 
 Use file ip-lookup-v0.3.php
 
-ip-lookup-v0.1.php and ip-lookup-v0.2.php are old!
+Files ip-lookup-v0.1.php and ip-lookup-v0.2.php are old!
 
-IP lookup with PHP and free API
+IP lookup with PHP and using free API
 
 We will use free API from: www.freegeoip.net (it was without Access Key) and www.ipinfo.io (without Access Key, no signup is required actually)
 
