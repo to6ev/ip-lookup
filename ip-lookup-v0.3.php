@@ -1,4 +1,4 @@
-with API ... this source code is new ... version 0.3 ... you can get more tools from www.tools.eti.pw
+With API ... This source code is new ... version 0.3 ... You can get more tools from www.tools.eti.pw
 
 <!DOCTYPE html>
 <html lang="en">
