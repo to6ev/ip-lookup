@@ -6,7 +6,7 @@ Files ip-lookup-v0.1.php and ip-lookup-v0.2.php are old!
 
 IP lookup with PHP and using free API
 
-We will use free API from: www.freegeoip.net (it was without Access Key) and www.ipinfo.io (without Access Key, no signup is required actually)
+We will use free API from: www.freegeoip.net (it was without Access Key), www.ip-api.com and www.ipinfo.io (without Access Key, no signup is required actually)
 
 but www.freegeoip.net = www.ipstack.com now, and the new API is with free Access Key ... You must sign up and to get your own key.
 
