@@ -18,5 +18,3 @@ demo: www.iplookup.eti.pw
 
 Note: Keyless access to Google Maps Platform is deprecated since June 11th, 2018 
 Go to: https://cloud.google.com/maps-platform/maps/ and GET KEY ...
-
-github: to6ev
