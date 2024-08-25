@@ -14,7 +14,7 @@ read more: https://github.com/apilayer/freegeoip#readme
 
 demo of this php script: http://tools.eti.pw/ip-lookup.php
 
-demo: www.iplookup.eti.pw
+demo: https://iplookup.eti.pw
 
 Note: Keyless access to Google Maps Platform is deprecated since June 11th, 2018 
 Go to: https://cloud.google.com/maps-platform/maps/ and GET KEY ...
